@@ -40,13 +40,14 @@
     max-width: 1204px;
     margin: 0 auto;
 }
-.section__contenedor{
+
+.section__contenedor--inicio{
     background-image: url(samu02.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 800px;
-    padding: 10px;
+    height: 500px;
+    padding: 150px;
     margin-top: 5px;
     image-rendering: 130%;
     image-rendering: crisp-edges;
@@ -56,19 +57,19 @@
     image-rendering: unset;
 
 }
-.section__contenedor--articol{
+.section__contenedor--inicio--articol{
     text-align: center;
 }
-.section__contenedor--titulo{
+.section__contenedor--inicio--titulo{
     margin-left: 50px;
     text-align: left;
     font-size: 30px;
 }
-.section__contenedor--parrafo{
+.section__contenedor--inicio--parrafo{
     margin-left: 50px;
     text-align: justify;
 }
-.section__contenedor--button{
+.section__contenedor--inicio--button{
     height: 40px;
     font-size: 20px;
     color: #8919B2;
@@ -76,11 +77,6 @@
     border-radius: 10px;
     margin-top: 50px;
 }
-
-
-
-
-
 .section__contenedor--info{
     background-color: #D684FC;
     height: 400px;
