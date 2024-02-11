@@ -41,7 +41,7 @@
     margin: 0 auto;
 }
 .section__contenedor{
-    background-image: url(samu.png);
+    background-image: url(samu02.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,4 +75,38 @@
     border-color: #8919B2;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+
+
+
+
+.section__contenedor--info{
+    background-color: #D684FC;
+    height: 400px;
+}
+.section__contenedor--info{
+    text-align: center;
+}
+.section__contenedor--info--titulo{
+    font-size: 40px;
+}
+.section___contenedor--info--parrafo-32{
+    font-size: 28px;
+}
+.section__contenedor--info--button{
+    margin-top: 70px;
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 30px;
+    color: #8919B2;
+    border-color: #8919B2;
+}
+.section__conetendor--servicios--conten{
+    display:flex ;
+    flex-direction: column;
+}
+.section__contenedor--servicios--conten--titulo{
+    margin-left: 150px;
 }
