@@ -5,38 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <title>Document</title>
+  <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-<header>
-<nav>
-  <img src="Ruiz-removebg-preview.png" width="50px " alt="">
-  <ul>
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Reseña</a></li>
-    <li><a href="#">Planes</a></li>
-    <li><a href="#">Servicios</a></li>
-    <li><a href="#">Descargas </a></li>
-    <li><a href="#">Buscador</a></li>
-    <hr>
-  </ul>
-</nav>
+<header class="encabezado">
+  <div class="box">
+    <nav class="encabezado__nav">
+      <img class="encabezado__img" src="Ruiz-removebg-preview.png" width="50px " alt="">
+      <ul class="encabezado__ul">
+        <li class="encabezado__li"><a  class="encabezado__a" href="#">Inicio</a></li>
+        <li class="encabezado__li"><a class="encabezado__a" href="#">Reseña</a></li>
+        <li class="encabezado__li"><a class="encabezado__a" href="#">Planes</a></li>
+        <li class="encabezado__li"><a class="encabezado__a" href="#">Servicios</a></li>
+        <li class="encabezado__li"><a class="encabezado__a" href="#">Descargas </a></li>
+        <li class="encabezado__li"><a class="encabezado__a" href="#">Buscador</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
-<main>
-  <section>
-    <article>
-      <img src="samu.png" alt="">
-        <p>"El amor es como una montaña rusa, tiene <br>
-      sus altibajos, pero al final del dia, siempre te <br>
-      deja con una sonrisa en la cara"
-        </p>  
-        <p>
-        Es una metafora que compara el amor con una montaña rusa. al igual que una montaña <br>
-        rusa, el amor tiene sus altibajos, momentos de feliciad y tristeza
-      </p>
-      <button style="color: violet;">¡Empieza desde aqui!</button>
-    </article>
-  </section>
-      <section style="background-color: violet;">
+<main class="section">
+  <div class="section__contenedor">
+      <div class="box">
+          <section class="">
+            <article class="section__contenedor--articol">
+                <h1 class="section__contenedor--titulo">"El amor es como una montaña rusa, tiene <br>
+                  sus altibajos, pero al final del dia, siempre te <br>
+                  deja con una sonrisa en la cara"
+                </h1>  
+                <p class="section__contenedor--parrafo">
+                  Es una metafora que compara el amor con una montaña rusa. al igual que una montaña <br>
+                  rusa, el amor tiene sus altibajos, momentos de feliciad y tristeza
+              </p>
+              <button class="section__contenedor--button">¡Empieza desde aqui!</button>
+            </article>
+          </section>
+      </div>
+  </div>
+  <section style="background-color: violet;">
         <article>
           <h1>¡Te Podemos dar estas experiencias!</h1>
         <p>Es una aplicacion diseñada para facilitar conexiones significiastvas y autenticas entre personas que buscan el amor y la compañia . Con una interfaz intuitiva y <br>
