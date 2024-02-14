@@ -330,3 +330,94 @@ hr{
     text-align: center;
     border-radius: 30px;
 }
+.section__otor{
+    display: flex;
+    flex-direction: row;
+    background-color: #D684FC;
+    height: 400px;
+}
+.section__otor--arti {
+    display:flex ;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    justify-content: center;
+}
+.section__otor--arti--div{
+    margin-top: 19px;
+    height: 300px;
+    width: 400px;
+}
+.section__otor--titulo{
+    font-size: 30px;
+    text-align: center;
+}
+/* Este es el css de los planes */
+.section__cont--pac{
+    display: flex;
+    flex-direction: row;
+}
+.sectiom__cont--pac--titulo{
+    margin-left: 550px;
+}
+.section__cont--pac--arti{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.section__cont--pac--arti--titulo{
+    display: flex;
+    background-color: #8919B2;
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.section__cont--pac--art--button{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 120px;
+    background-color: #D684FC;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #D684FC;
+}
+.section__cont--pac--div{
+    width: 200px;
+    height: 400px;
+}
+/* Este es el css de de los comentarios */
+.section--cont--coment{
+    display: flex;
+    flex-direction: row;
+    background-color: #D684FC;
+}
+.section--cont--art{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+}
+.section--cont--coment--arti{
+    text-align: center;
+}
+.section--cont--art--p{
+    display: flex;
+}
