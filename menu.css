@@ -80,8 +80,6 @@
 .section__contenedor--info{
     background-color: #D684FC;
     height: 400px;
-}
-.section__contenedor--info{
     text-align: center;
 }
 .section__contenedor--info--titulo{
@@ -107,9 +105,8 @@
 .section__contenedor--servicios--conten{
     display:flex ;
     flex-direction: column;
-    /* background-color: aqua; */
     box-shadow: 1px 1px 10px;
-    margin: 10px;
+    margin: 10px;    
 }
 .section__contenedor--servicios--conten--titulo{
     margin-left: 170px;
@@ -169,4 +166,167 @@ hr{
     align-items: center;
     margin-right: 194px;
     justify-content: space-around;
+}
+/* .section__contenedor{
+    display: flex;
+    flex-direction: row;
+    background-color:white ;
+}
+.section__cont{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 10px;
+}
+.section__contenedor--img{
+    box-shadow: 1px 1px 10px;
+}
+.section__cont--div--arti--titulo{
+    margin-left: 170px;
+    padding: 10px;
+    background-color: #8919B2;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+} */
+.section__filtro{
+    display: flex;
+    flex-direction: row;
+}
+.section__filtro--art{
+    display:flex ;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+}
+.section__filtro--art1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px;
+    height: 150px;
+}
+.sectiom__filtro--art--titulo{
+    margin-left: 220px;
+    background-color: #8919B2;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.section__filtro--art--input{
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid;
+    height: 23px;
+}
+.section__filtro--art--img{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 270px;
+}
+.section__filtro--art--button1{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 110px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__filtro--art--button2{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__filtro--art--button3{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+} 
+.section__filtro--art--button4{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 180px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__filtro--art--button5{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 80px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__filtro--art--button6{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 90px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__filtro--art--button7{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 180px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__filtro--art--button8{
+    width: 70px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 80px;
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+}
+.section__elige{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section__elige--cont{
+    display:flex ;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+    justify-content: center;
+}
+.section__elige--img{
+    width: 220px;
+}
+.section__elige--arti{
+    text-align: center;
+}
+.solid{
+    display: flex;
+    justify-content: center;
+}
+.section__elige--cont--titulo{
+    margin-left: 200px;
+    background-color: #8919B2;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
 }
