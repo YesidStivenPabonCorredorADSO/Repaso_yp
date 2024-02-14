@@ -167,27 +167,46 @@ hr{
     margin-right: 194px;
     justify-content: space-around;
 }
-/* .section__contenedor{
+/* El css donde no se ah logrado */
+ .section__contenedor{
     display: flex;
     flex-direction: row;
     background-color:white ;
 }
-.section__cont{
-    display: flex;
-    flex-direction: row;
-    box-shadow: 1px 1px 10px;
+.section__contenedor--div{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
-.section__contenedor--img{
-    box-shadow: 1px 1px 10px;
+.section__cont--div--arti{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 3px;
+  background-color: white;
 }
 .section__cont--div--arti--titulo{
-    margin-left: 170px;
+  margin-top: 10px;
+    margin-left: 220px;
     padding: 10px;
     background-color: #8919B2;
     width: 80px;
     color: white;
     border-radius: 30px;
-} */
+} 
+.section__contenedor--div{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 3px;
+  background-color: white;
+}
+.contenedor--img--li{
+  list-style: none;
+}
+.img--contenedor{
+  width: 100px;
+  height: 80px;
+}
+/* El css del filtro */
 .section__filtro{
     display: flex;
     flex-direction: row;
@@ -300,6 +319,7 @@ hr{
     border: 1px solid #D9D9D9;
     border-radius: 30px;
 }
+/* Empieza el css de elige */
 .section__elige{
     display: flex;
     flex-direction: row;
@@ -401,23 +421,69 @@ hr{
 }
 /* Este es el css de de los comentarios */
 .section--cont--coment{
-    display: flex;
-    flex-direction: row;
     background-color: #D684FC;
+    height: 1400px;
 }
-.section--cont--art{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    background-color: white;
-    box-shadow: 1px 1px 10px;
+.section--cont--coment--titulo{
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
 }
 .section--cont--coment--arti{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.section--cont--coment--arti2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.section--cont--coment-div{
+  width: 400px;
+  padding: 20px;
+  background-color: #D9D9D9;
+  border: solid 1px #D9D9D9;
+  box-shadow: 1px 1px 2px;
+  border-radius: 10px;
+  text-align: justify;
+}
+.section--cont--coment-div{
+  padding: 20px;
+}
+.section--cont--coment--artil{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    font-size: 20px;
 }
 .section--cont--art--p{
     display: flex;
+}
+.section--cont--coment-p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.section-cont--coment-artil-button{
+  background-color: #BB42F3;
+  border: 1px solid #D684FC;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 160px;
+  height: 40px;
+}
+/* El css del footer */
+.foooter--articul--div{
+  display: flex;
+}
+.footer--articul--img{
+  width: 40px;
+}
+.footer--articul--button{
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #D9D9D9;
 }
