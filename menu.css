@@ -4,38 +4,43 @@
     box-sizing: border-box;
 }
 /* El reposive table */
-/* @media (min-width:758px){
-
+@media (max-width:768px){
+/* Este es el inicio */
     .encabezado{
         width: 760px;
     }
     .section__contenedor--inicio{
         width: 760px;
     }
-    .section__contenedor--inicio--articol{
-        font-size: 16px;
-        
-    }
     .section__contenedor--inicio--titulo{
         font-size: 20px;
     }
+    .section__contenedor--inicio--parrafo{
+        font-size: 17px;
+    }
+    .section__contenedor--inicio--articol {
+        font-size: 17px;
+        /* El esta clase toma el parrafo */
+    }
     .section__contenedor--inicio--button{
         width: 150px;
-        font-size: 15px;
+        font-size: 20px;
     }
-    .section__contenedor--info--titulo{
-        font-size: 1px;
+    /*El codigo la card informaciin */
+    .section__contenedor--info--titulo h1{
+        font-size: 20px;
     }
-    .section__contenedor--info--titulo{
-        font-size: 16px;
-    }
-    .section__contenedor--info--parrafo{
+    .section___contenedor--info--parrafo{
         font-size: 10px;
     }
-    .section___contenedor--info--parrafo-32{
-        font-size: 10px;
+    .section__contenedor--info--button{
+        
     }
-} */
+    /* las cards de experiencia  */
+    .section__contenedor--servicios--conten{
+        width: 400px;
+    }
+}
 .encabezado{
     display: flex;
     box-shadow: 5px 0px 5px  ;
@@ -82,11 +87,6 @@
     height: 500px;
     padding: 150px;
     margin-top: 5px;
-    image-rendering: 130%;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: inherit;
-    image-rendering: initial;
     image-rendering: unset;
 
 }
@@ -94,12 +94,10 @@
     text-align: center;
 }
 .section__contenedor--inicio--titulo{
-    margin-left: 50px;
+    font-size: 28px;
     text-align: left;
-    font-size: 30px;
 }
 .section__contenedor--inicio--parrafo{
-    margin-left: 50px;
     text-align: justify;
 }
 .section__contenedor--inicio--button{
@@ -112,14 +110,14 @@
 }
 .section__contenedor--info{
     background-color: #D684FC;
-    height: 400px;
+    height: 340px;
     text-align: center;
 }
 .section__contenedor--info--titulo{
     font-size: 40px;
 }
-.section___contenedor--info--parrafo-32{
-    font-size: 28px;
+.section___contenedor--info--parrafo{
+    font-size: 22px;
 }
 .section__contenedor--info--button{
     margin-top: 70px;
@@ -139,7 +137,8 @@
     display:flex ;
     flex-direction: column;
     box-shadow: 1px 1px 10px;
-    margin: 10px;    
+    margin: 10px;   
+ 
 }
 .section__contenedor--servicios--conten--titulo{
     margin-left: 170px;
