@@ -3,6 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* El reposive table */
+/* @media (min-width:758px){
+
+    .encabezado{
+        width: 760px;
+    }
+    .section__contenedor--inicio{
+        width: 760px;
+    }
+    .section__contenedor--inicio--articol{
+        font-size: 16px;
+        
+    }
+    .section__contenedor--inicio--titulo{
+        font-size: 20px;
+    }
+    .section__contenedor--inicio--button{
+        width: 150px;
+        font-size: 15px;
+    }
+    .section__contenedor--info--titulo{
+        font-size: 1px;
+    }
+    .section__contenedor--info--titulo{
+        font-size: 16px;
+    }
+    .section__contenedor--info--parrafo{
+        font-size: 10px;
+    }
+    .section___contenedor--info--parrafo-32{
+        font-size: 10px;
+    }
+} */
 .encabezado{
     display: flex;
     box-shadow: 5px 0px 5px  ;
@@ -194,17 +227,17 @@ hr{
     border-radius: 30px;
 } 
 .section__contenedor--div{
-  display: flex;
-  flex-direction: column;
-  box-shadow: 1px 1px 3px;
-  background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px;
+    background-color: white;
 }
 .contenedor--img--li{
-  list-style: none;
+    list-style: none;
 }
 .img--contenedor{
-  width: 100px;
-  height: 80px;
+    width: 100px;
+    height: 80px;
 }
 /* El css del filtro */
 .section__filtro{
