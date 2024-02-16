@@ -224,7 +224,7 @@ hr{
 .section__filtro--art1{
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 5px;
     height: 150px;
     border-radius: 10px;
 }
@@ -336,7 +336,7 @@ hr{
 .section__elige--cont{
     display:flex ;
     flex-direction: column;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 5px;
     background-color: white;
     justify-content: center;
     border-radius: 10px;
@@ -376,8 +376,10 @@ hr{
 }
 .section__otor--arti--div{
     margin-top: 19px;
-    height: 300px;
     width: 400px;
+}
+.section__otor--arti--cont--div{
+
 }
 .section__otor--titulo{
     font-size: 30px;
@@ -431,7 +433,7 @@ hr{
 /* Este es el css de de los comentarios */
 .section--cont--coment{
     background-color: #D684FC;
-    height: 1400px;
+    height: 1470px;
 }
 .section--cont--coment--titulo{
     font-size: 34px;
@@ -460,6 +462,7 @@ hr{
 }
 .section--cont--coment-div{
     padding: 20px;
+    margin: 10px;
 }
 .section--cont--coment--artil{
     display: flex;
@@ -482,6 +485,7 @@ hr{
     font-size: 20px;
     width: 160px;
     height: 40px;
+    color: white;
 }
 /* El css del footer */
 .foooter--articul--div{
@@ -596,5 +600,102 @@ hr{
         .section__otor{
             display: flex;
         }
+        .section__otor--arti--div{
+            width: 200px;
+        }
+        .section__otor--arti--img{
+            width: 130px;
+        }
+        .section__otor--arti--img2{
+            width: 90px;
+        }
+        .section__otor--arti--img1{
+            width: 90px;
+        }
+        .section__otor--arti--parrafo{
+            padding: 10px;
+        }
+        .sectiom__cont--pac--titulo{
+            margin: 0;
+            text-align: center;
+        }
+        /* comentarios */
+        .section--cont--coment-div{
+            width:400px;
+            margin: 10px;
+        }
+        .section--cont--coment--titulo{
+            font-size: 30px;
+        }
+        .section--cont--coment--titulo--22{
+            font-size: 22px;
+            padding: 10px;
+        }
+    }
+    /* El renposive de celular */
+    @media (max-width:425px){
+        .encabezado__ul{
+            font-size: 24px;
+            margin: 0;
+        }
+        .section__contenedor--inicio--titulo{
+            font-size: 26px;
+        }
+        .section__contenedor--inicio--parrafo{
+            font-size: 20px;
+        }
+        .section__contenedor--inicio--button{
+            margin: 0;
+            font-size: 20px;
+            width: 200px;
+        }
+        .section__contenedor--info{
+            width: 760px;
+            height: 320px;
 
+        }
+        .section__contenedor--info--titulo{
+            font-size: 30px;
+        }
+        .section__contenedor--info--parrafo1{
+            font-size: 23px;
+            text-align: center;
+        }
+        .section___contenedor--info--parrafo{
+            font-size: 22px;
+            text-align: center;
+        }
+        .section__contenedor--info--button{
+            font-size: 20px;
+        }
+        .section__contenedor--servicios{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 700px;
+        }
+        .section__contenedor--servicios--conten--li {
+            font-size: 24px;
+            text-align: start;
+        }
+        .section__contenedor--servicios--div{
+            margin: 0;
+        }
+        .section__contenedor--servicios--conten--titulo{
+            font-size: 32px;
+            width: 120px ;
+            margin-left: 120px;
+        }
+        .section__contenedor--servicios--conten{
+            font-size: 24px;
+        }
+        .section__contenedor--div{
+            width: 360px;
+        }
+        .section__cont--div--arti{
+            font-size: 18px;
+        }
+        .section__cont--div--arti--li{
+            font-size: 24px;
+        }
     }
