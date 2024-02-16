@@ -3,44 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* El reposive table */
-@media (max-width:768px){
-/* Este es el inicio */
-    .encabezado{
-        width: 760px;
-    }
-    .section__contenedor--inicio{
-        width: 760px;
-    }
-    .section__contenedor--inicio--titulo{
-        font-size: 20px;
-    }
-    .section__contenedor--inicio--parrafo{
-        font-size: 17px;
-    }
-    .section__contenedor--inicio--articol {
-        font-size: 17px;
-        /* El esta clase toma el parrafo */
-    }
-    .section__contenedor--inicio--button{
-        width: 150px;
-        font-size: 20px;
-    }
-    /*El codigo la card informaciin */
-    .section__contenedor--info--titulo h1{
-        font-size: 20px;
-    }
-    .section___contenedor--info--parrafo{
-        font-size: 10px;
-    }
-    .section__contenedor--info--button{
-        
-    }
-    /* las cards de experiencia  */
-    .section__contenedor--servicios--conten{
-        width: 400px;
-    }
-}
+
 .encabezado{
     display: flex;
     box-shadow: 5px 0px 5px  ;
@@ -116,11 +79,14 @@
 .section__contenedor--info--titulo{
     font-size: 40px;
 }
+.section__contenedor--info--parrafo1{
+    font-size: 18px;
+}
 .section___contenedor--info--parrafo{
-    font-size: 22px;
+    font-size: 25px;
 }
 .section__contenedor--info--button{
-    margin-top: 70px;
+    margin-top: 30px;
     height: 40px;
     font-size: 20px;
     width: 100px;
@@ -132,13 +98,14 @@
     display: flex;
     flex-direction: row;
     background-color: white;
+    align-items: center;
 }
 .section__contenedor--servicios--conten{
     display:flex ;
     flex-direction: column;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 5px;
     margin: 10px;   
- 
+    border-radius: 10px;
 }
 .section__contenedor--servicios--conten--titulo{
     margin-left: 170px;
@@ -147,6 +114,9 @@
     width: 100px;
     color: white;
     border-radius: 30px;
+}
+.section__contenedor--servicios--conten--li{
+    list-style: none;
 }
 .section__contenedor--servicios--img--black{
     width: 50px;
@@ -200,28 +170,29 @@ hr{
     justify-content: space-around;
 }
 /* El css donde no se ah logrado */
- .section__contenedor{
+    .section__contenedor{
     display: flex;
     flex-direction: row;
     background-color:white ;
 }
 .section__contenedor--div{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 3px;
 }
 .section__cont--div--arti{
-  display: flex;
-  flex-direction: column;
-  box-shadow: 1px 1px 3px;
-  background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 .section__cont--div--arti--titulo{
-  margin-top: 10px;
+    margin-top: 10px;
     margin-left: 220px;
     padding: 10px;
     background-color: #8919B2;
-    width: 80px;
+    width: 100px;
+    font-size: 24px;
     color: white;
     border-radius: 30px;
 } 
@@ -230,6 +201,7 @@ hr{
     flex-direction: column;
     box-shadow: 1px 1px 3px;
     background-color: white;
+    border-radius: 10px;
 }
 .contenedor--img--li{
     list-style: none;
@@ -242,11 +214,11 @@ hr{
 .section__filtro{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .section__filtro--art{
     display:flex ;
     flex-direction: column;
-    box-shadow: 1px 1px 10px;
     background-color: white;
 }
 .section__filtro--art1{
@@ -254,14 +226,18 @@ hr{
     flex-direction: column;
     box-shadow: 1px 1px 10px;
     height: 150px;
+    border-radius: 10px;
 }
-.sectiom__filtro--art--titulo{
+.section__filtro--art--titulo{
     margin-left: 220px;
     background-color: #8919B2;
     width: 120px;
     color: white;
     text-align: center;
     border-radius: 30px;
+}
+.section__filtro--art--ul{
+    list-style: none;
 }
 .section__filtro--art--input{
     width: 300px;
@@ -363,6 +339,7 @@ hr{
     box-shadow: 1px 1px 10px;
     background-color: white;
     justify-content: center;
+    border-radius: 10px;
 }
 .section__elige--img{
     width: 220px;
@@ -375,9 +352,9 @@ hr{
     justify-content: center;
 }
 .section__elige--cont--titulo{
-    margin-left: 200px;
+    margin-left: 150px;
     background-color: #8919B2;
-    width: 120px;
+    width: 200px;
     color: white;
     text-align: center;
     border-radius: 30px;
@@ -457,32 +434,32 @@ hr{
     height: 1400px;
 }
 .section--cont--coment--titulo{
-  font-size: 34px;
-  display: flex;
-  justify-content: center;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
 }
 .section--cont--coment--arti{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
 }
 .section--cont--coment--arti2{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .section--cont--coment-div{
-  width: 400px;
-  padding: 20px;
-  background-color: #D9D9D9;
-  border: solid 1px #D9D9D9;
-  box-shadow: 1px 1px 2px;
-  border-radius: 10px;
-  text-align: justify;
+    width: 400px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border: solid 1px #D9D9D9;
+    box-shadow: 1px 1px 2px;
+    border-radius: 10px;
+    text-align: justify;
 }
 .section--cont--coment-div{
-  padding: 20px;
+    padding: 20px;
 }
 .section--cont--coment--artil{
     display: flex;
@@ -494,28 +471,130 @@ hr{
     display: flex;
 }
 .section--cont--coment-p{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
 }
 .section-cont--coment-artil-button{
-  background-color: #BB42F3;
-  border: 1px solid #D684FC;
-  border-radius: 30px;
-  font-size: 20px;
-  width: 160px;
-  height: 40px;
+    background-color: #BB42F3;
+    border: 1px solid #D684FC;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
 }
 /* El css del footer */
 .foooter--articul--div{
-  display: flex;
+    display: flex;
 }
 .footer--articul--img{
-  width: 40px;
+    width: 40px;
 }
 .footer--articul--button{
-  height: 40px;
-  font-size: 20px;
-  border-radius: 10px;
-  border: 1px solid #D9D9D9;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
 }
+/* El reposive table */
+@media screen and (max-width:768px){
+    /* Este es el inicio */
+        .encabezado{
+            width: 760px;
+        }
+        .section__contenedor--inicio{
+            width: 760px;
+        }
+        .section__contenedor--inicio--titulo{
+            font-size: 24px;
+        }
+        .section__contenedor--inicio--parrafo{
+            font-size: 17px;
+        }
+        .section__contenedor--inicio--articol {
+            font-size: 17px;
+            /* El esta clase toma el parrafo */
+        }
+        .section__contenedor--inicio--button{
+            width: 170px;
+            font-size: 17px;
+        }
+        /*El codigo la card informaciin */
+        .section__contenedor--info--titulo {
+            font-size: 30px;
+        }
+        .section__contenedor--info--parrafo1{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .section___contenedor--info--parrafo{
+            font-size: 18px;
+        }
+        .section__contenedor--info--button{
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        /* las cards de experiencia  */
+        .section__contenedor--servicios--conten{
+            width: 400px;
+        }
+        .section__contenedor--servicios--conten{
+            width: 350px;
+        }
+        .section__contenedor--servicios--conten--li{
+            font-size: 14px;
+            text-align: justify;
+            padding: 5px;
+            list-style: none;
+        }
+        .section__contenedor--servicios--div{
+            margin-left: 140px;
+        }
+        .section__contenedor--servicios--conten--titulo{
+            margin-left: 0;
+            text-align: center;
+        }
+        .section__contenedor--div{
+            padding: 5px;
+            text-align: justify;
+            font-size: 14px;
+            width: 350px;
+        }
+        .section__cont--div--arti--ul{
+            list-style: none;
+        }
+        .section__cont--div--arti--titulo{
+            margin: 0;
+        }
+        .section__cont--arti--div{
+            margin-left: 140px;
+        }
+        .section__filtro--div{
+            margin-left: 70px;
+        }
+        .section__filtro--art--titulo{
+            width: 200px;
+            font-size: 24px;
+            margin: 0;
+        }
+        .section__filtro--art--ul{
+            text-align: justify;
+            padding: 5px;
+        }
+        .section__elige--cont{
+            width: 350px;
+            align-items: center;
+        }
+        .section__elige--cont--titulo{
+            margin: 0;
+        }
+        .section__elige--cont--parrafo{
+            padding: 5px;
+            text-align: justify;
+            font-size: 14px;
+        }
+        .section__otor{
+            display: flex;
+        }
+
+    }
